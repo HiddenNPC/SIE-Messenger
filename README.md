@@ -10,3 +10,6 @@ A FAQ &amp; IM application for College SIE (Shenyang Institute Of Engineering, C
 
 2018-3-14 项目的成果文档上交信息学院
 祝大家前程似锦，当然也可以过来继续把这个项目在写一写。
+
+环境配置：
+> JDK8, Tomcat runtime lib
