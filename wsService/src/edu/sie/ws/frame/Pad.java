@@ -66,15 +66,16 @@ public class Pad extends JFrame implements ActionListener {
 		// TODO Auto-generated method stub
 
 		// EnDe ed = new EnDe(uid+upsw);
-		
-		if (e.getSource() == mybtn) {
 
+		if (e.getSource() == mybtn) {
+			System.out.println("㏒"+editArea.getText());
 			try {
 				Iterator it = connections.entrySet().iterator();
 				
 				while(it.hasNext()){
 					Entry entry=(Entry) it.next();
-					((Session) entry.getValue()).getBasicRemote().sendText(editArea.getText());
+					((Session) entry.getValue()).getBasicRemote().sendText("㏒"+editArea.getText());
+
 				}
 				
 				
